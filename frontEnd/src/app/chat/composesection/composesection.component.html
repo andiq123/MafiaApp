@@ -1,0 +1,11 @@
+<div class="compose-section">
+  <input name="chatCompose" [(ngModel)]="message" />
+  <button
+    mat-raised-button
+    color="primary"
+    [disabled]="!message"
+    (click)="sendMsg()"
+  >
+    Trimite Epta
+  </button>
+</div>

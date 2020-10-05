@@ -1,0 +1,9 @@
+<mat-card class="chatCard">
+  <mat-card-title>Chat</mat-card-title>
+  <mat-card-content>
+    <app-msgsection [users]="users"></app-msgsection>
+  </mat-card-content>
+  <app-composesection
+    (messageSent)="OnMessageSent($event)"
+  ></app-composesection>
+</mat-card>

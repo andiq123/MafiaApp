@@ -1,0 +1,6 @@
+.compose-section {
+  display: flex;
+}
+.compose-section button {
+  margin-left: 20px;
+}
